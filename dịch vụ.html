@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Dịch vụ Backlink chất lượng - All in One dành cho SEOer | BestLink Agency
+    </title>
+    <meta
+      name="description"
+      content="Tìm hiểu dịch vụ backlink chất lượng, vai trò trong SEO, chiến lược RankBoost độc quyền, báo giá minh bạch tại BestLink Agency."
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        line-height: 1.6;
+        color: #333;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        min-height: 100vh;
+      }
+
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+
+      header {
+        background: rgba(255, 255, 255, 0.95);
+        backdrop-filter: blur(15px);
+        box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 1000;
+        transition: all 0.3s ease;
+      }
+
+      header.scrolled {
+        background: rgba(255, 255, 255, 0.98);
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 0;
+      }
+
+      .logo {
+        font-size: 2rem;
+        font-weight: bold;
+        background: linear-gradient(45deg, #667eea, #764ba2);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        transition: all 0.3s ease;
+      }
+
+      .logo:hover {
+        transform: scale(1.05);
+      }
+
+      .nav-links {
+        display: flex;
+        list-style: none;
+        gap: 2rem;
+      }
+
+      .nav-links a {
+        text-decoration: none;
+        color: #333;
+        font-weight: 500;
+        transition: all 0.3s ease;
+        position: relative;
+        padding: 0.5rem 0;
+      }
+
+      .nav-links a:hover {
+        color: #667eea;
+        transform: translateY(-2px);
+      }
+
+      .nav-links a::after {
+        content: "";
+        position: absolute;
+        width: 0;
+        height: 2px;
+        bottom: 0;
+        left: 50%;
+        background: linear-gradient(45deg, #667eea, #764ba2);
+        transition: all 0.3s ease;
+      }
+
+      .nav-links a:hover::after {
+        width: 100%;
+        left: 0;
+      }
+
+      .breadcrumb {
+        background: rgba(255, 255, 255, 0.9);
+        padding: 8rem 0 2rem;
+        backdrop-filter: blur(10px);
+      }
+
+      .breadcrumb-nav {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-size: 0.9rem;
+        color: #666;
+      }
+
+      .breadcrumb-nav a {
+        color: #667eea;
+        text-decoration: none;
+        transition: color 0.3s ease;
+      }
+
+      .breadcrumb-nav a:hover {
+        color: #764ba2;
+      }
+
+      .page-header {
+        background: rgba(255, 255, 255, 0.95);
+        padding: 3rem 0;
+        text-align: center;
+        backdrop-filter: blur(20px);
+        position: relative;
+        overflow: hidden;
+      }
+
+      .page-header::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(
+          45deg,
+          transparent 40%,
+          rgba(102, 126, 234, 0.1) 50%,
+          transparent 60%
+        );
+        animation: shimmer 3s ease-in-out infinite;
+      }
+
+      @keyframes shimmer {
+        0% {
+          transform: translateX(-100%);
+        }
+        100% {
+          transform: translateX(100%);
+        }
+      }
+
+      .page-title {
+        font-size: 3rem;
+        font-weight: bold;
+        background: linear-gradient(45deg, #667eea, #764ba2);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        margin-bottom: 1rem;
+        position: relative;
+        z-index: 2;
+      }
+
+      .page-subtitle {
+        font-size: 1.2rem;
+        color: #666;
+        max-width: 800px;
+        margin: 0 auto;
+        position: relative;
+        z-index: 2;
+      }
+
+      .main-content {
+        background: white;
+        padding: 4rem 0;
+      }
+
+      .service-overview {
+        margin-bottom: 4rem;
+      }
+
+      .overview-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+        margin-top: 2rem;
+      }
+
+      .overview-card {
+        background: linear-gradient(145deg, #f8f9ff, #e8ecff);
+        padding: 2rem;
+        border-radius: 20px;
+        box-shadow: 0 10px 30px rgba(102, 126, 234, 0.1);
+        transition: all 0.3s ease;
+        border: 1px solid rgba(102, 126, 234, 0.1);
+        position: relative;
+        overflow: hidden;
+      }
+
+      .overview-card::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 4px;
+        background: linear-gradient(45deg, #667eea, #764ba2);
+      }
+
+      .overview-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 20px 50px rgba(102, 126, 234, 0.2);
+      }
+
+      .overview-icon {
+        font-size: 3rem;
+        background: linear-gradient(45deg, #667eea, #764ba2);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        margin-bottom: 1rem;
+      }
+
+      .service-packages {
+        margin-bottom: 4rem;
+      }
+
+      .section-title {
+        font-size: 2.5rem;
+        text-align: center;
+        margin-bottom: 3rem;
+        color: #333;
+        position: relative;
+      }
+
+      .section-title::after {
+        content: "";
+        position: absolute;
+        width: 100px;
+        height: 4px;
+        background: linear-gradient(45deg, #667eea, #764ba2);
+        bottom: -10px;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 2px;
+      }
+
+      .packages-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        gap: 2rem;
+        margin-top: 3rem;
+      }
+
+      .package-card {
+        background: white;
+        border-radius: 20px;
+        box-shadow: 0 15px 50px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        transition: all 0.3s ease;
+        position: relative;
+        border: 2px solid transparent;
+      }
+
+      .package-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 25px 70px rgba(0, 0, 0, 0.15);
+        border-color: rgba(102, 126, 234, 0.3);
+      }
+
+      .package-header {
+        padding: 2rem;
+        background: linear-gradient(145deg, #667eea, #764ba2);
+        color: white;
+        text-align: center;
+        position: relative;
+      }
+
+      .package-header::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 20px;
+        background: white;
+        border-radius: 20px 20px 0 0;
+      }
+
+      .package-name {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+      }
+
+      .package-price {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+      }
+
+      .package-price span {
+        font-size: 1rem;
+        opacity: 0.8;
+      }
+
+      .package-body {
+        padding: 2rem;
+      }
+
+      .package-features {
+        list-style: none;
+        margin-bottom: 2rem;
+      }
+
+      .package-features li {
+        padding: 0.5rem 0;
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+
+      .package-features li i {
+        color: #4caf50;
+        width: 20px;
+      }
+
+      .package-button {
+        width: 100%;
+        padding: 15px;
+        background: linear-gradient(45deg, #667eea, #764ba2);
+        color: white;
+        border: none;
+        border-radius: 50px;
+        font-weight: bold;
+        font-size: 1.1rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
+      }
+
+      .package-button:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+      }
+
+      .popular-badge {
+        position: absolute;
+        top: -10px;
+        right: 20px;
+        background: linear-gradient(45deg, #ff6b6b, #ee5a24);
+        color: white;
+        padding: 0.5rem 1rem;
+        border-radius: 20px;
+        font-size: 0.8rem;
+        font-weight: bold;
+        z-index: 10;
+      }
+
+      .strategy-section {
+        background: linear-gradient(145deg, #f8f9ff, #e8ecff);
+        padding: 4rem 0;
+        margin: 4rem 0;
+        border-radius: 30px;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .strategy-section::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><pattern id="dots" width="10" height="10" patternUnits="userSpaceOnUse"><circle cx="5" cy="5" r="1" fill="rgba(102,126,234,0.1)"/></pattern></defs><rect width="100" height="100" fill="url(%23dots)"/></svg>');
+        opacity: 0.3;
+      }
+
+      .strategy-content {
+        position: relative;
+        z-index: 2;
+      }
+
+      .strategy-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+        margin-top: 3rem;
+      }
+
+      .strategy-item {
+        background: rgba(255, 255, 255, 0.8);
+        padding: 2rem;
+        border-radius: 15px;
+        text-align: center;
+        backdrop-filter: blur(10px);
+        transition: all 0.3s ease;
+        border: 1px solid rgba(255, 255, 255, 0.3);
+      }
+
+      .strategy-item:hover {
+        transform: translateY(-5px);
+        background: rgba(255, 255, 255, 0.95);
+      }
+
+      .strategy-number {
+        width: 60px;
+        height: 60px;
+        background: linear-gradient(45deg, #667eea, #764ba2);
+        color: white;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin: 0 auto 1rem;
+      }
+
+      .pricing-table {
+        margin: 4rem 0;
+        overflow-x: auto;
+      }
+
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        background: white;
+        border-radius: 15px;
+        overflow: hidden;
+        box-shadow: 0 15px 50px rgba(0, 0, 0, 0.1);
+      }
+
+      th,
+      td {
+        padding: 1rem;
+        text-align: left;
+        border-bottom: 1px solid #eee;
+      }
+
+      th {
+        background: linear-gradient(145deg, #667eea, #764ba2);
+        color: white;
+        font-weight: bold;
+        text-align: center;
+      }
+
+      td:first-child {
+        font-weight: bold;
+        background: #f8f9ff;
+      }
+
+      .price-cell {
+        text-align: center;
+        font-weight: bold;
+        color: #667eea;
+        font-size: 1.1rem;
+      }
+
+      .testimonials {
+        padding: 4rem 0;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        margin: 4rem 0;
+        border-radius: 30px;
+        color: white;
+      }
+
+      .testimonials-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+        margin-top: 3rem;
+      }
+
+      .testimonial-card {
+        background: rgba(255, 255, 255, 0.1);
+        padding: 2rem;
+        border-radius: 15px;
+        backdrop-filter: blur(10px);
+        transition: all 0.3s ease;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+      }
+
+      .testimonial-card:hover {
+        transform: translateY(-5px);
+        background: rgba(255, 255, 255, 0.15);
+      }
+
+      .stars {
+        color: #ffd700;
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+      }
+
+      .client-name {
+        font-weight: bold;
+        margin-top: 1rem;
+        opacity: 0.9;
+      }
+
+      .cta-section {
+        background: white;
+        padding: 4rem 0;
+        text-align: center;
+        border-radius: 30px;
+        margin: 4rem 0;
+        box-shadow: 0 15px 50px rgba(0, 0, 0, 0.1);
+      }
+
+      .cta-button {
+        display: inline-block;
+        padding: 20px 50px;
+        background: linear-gradient(45deg, #ff6b6b, #ee5a24);
+        color: white;
+        text-decoration: none;
+        border-radius: 50px;
+        font-weight: bold;
+        font-size: 1.2rem;
+        transition: all 0.3s ease;
+        box-shadow: 0 15px 40px rgba(255, 107, 107, 0.4);
+        margin: 1rem;
+      }
+
+      .cta-button:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 20px 50px rgba(255, 107, 107, 0.6);
+      }
+
+      .cta-button.secondary {
+        background: linear-gradient(45deg, #667eea, #764ba2);
+        box-shadow: 0 15px 40px rgba(102, 126, 234, 0.4);
+      }
+
+      .cta-button.secondary:hover {
+        box-shadow: 0 20px 50px rgba(102, 126, 234, 0.6);
+      }
+
+      footer {
+        background: #2c3e50;
+        color: white;
+        text-align: center;
+        padding: 3rem 0;
+        margin-top: 4rem;
+      }
+
+      .scroll-indicator {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 4px;
+        background: linear-gradient(45deg, #ff6b6b, #ee5a24);
+        z-index: 9999;
+        transition: width 0.1s ease;
+      }
+
+      @media (max-width: 768px) {
+        .nav-links {
+          display: none;
+        }
+
+        .page-title {
+          font-size: 2rem;
+        }
+
+        .packages-grid,
+        .overview-grid,
+        .strategy-grid,
+        .testimonials-grid {
+          grid-template-columns: 1fr;
+        }
+
+        .pricing-table {
+          font-size: 0.9rem;
+        }
+
+        th,
+        td {
+          padding: 0.5rem;
+        }
+      }
+
+      .floating-contact {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        width: 60px;
+        height: 60px;
+        background: linear-gradient(45deg, #25d366, #128c7e);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 1.5rem;
+        text-decoration: none;
+        box-shadow: 0 10px 30px rgba(37, 211, 102, 0.4);
+        z-index: 1000;
+        transition: all 0.3s ease;
+        animation: pulse 2s infinite;
+      }
+
+      @keyframes pulse {
+        0% {
+          box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7);
+        }
+        70% {
+          box-shadow: 0 0 0 10px rgba(37, 211, 102, 0);
+        }
+        100% {
+          box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+        }
+      }
+
+      .floating-contact:hover {
+        transform: scale(1.1);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="scroll-indicator" id="scrollIndicator"></div>
+
+    <header id="header">
+      <nav class="container">
+        <div class="logo">BestLink</div>
+        <ul class="nav-links">
+          <li><a href="/bestlink.html">Trang chủ</a></li>
+          <li><a href="/dịch vụ.html">Dịch vụ</a></li>
+          <li><a href="#packages">Gói dịch vụ</a></li>
+          <li><a href="#pricing">Bảng giá</a></li>
+          <li><a href="/Giới thiệu.html">Giới thiệu</a></li>
+          <li><a href="#contact">Liên hệ</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="breadcrumb">
+      <div class="container">
+        <nav class="breadcrumb-nav">
+          <a href="#home"><i class="fas fa-home"></i> Trang chủ</a>
+          <i class="fas fa-chevron-right"></i>
+          <span>Dịch vụ Backlink chất lượng</span>
+        </nav>
+      </div>
+    </section>
+
+    <section class="page-header">
+      <div class="container">
+        <h1 class="page-title">Dịch vụ Backlink chất lượng</h1>
+        <p class="page-subtitle">
+          All in One dành cho SEOer - Tăng thứ hạng Google nhanh chóng, an toàn
+          và bền vững với chiến lược RankBoost độc quyền
+        </p>
+      </div>
+    </section>
+
+    <section class="main-content" id="services">
+      <div class="container">
+        <div class="service-overview">
+          <h2 class="section-title">Tại sao cần Backlink cho website?</h2>
+          <div class="overview-grid">
+            <div class="overview-card">
+              <div class="overview-icon">
+                <i class="fas fa-chart-line"></i>
+              </div>
+              <h3>Tăng thứ hạng Google</h3>
+              <p>
+                Backlink chất lượng giúp website của bạn leo top tìm kiếm nhanh
+                chóng và bền vững. Google sẽ đánh giá cao những website có nhiều
+                backlink từ nguồn uy tín.
+              </p>
+            </div>
+            <div class="overview-card">
+              <div class="overview-icon">
+                <i class="fas fa-shield-alt"></i>
+              </div>
+              <h3>Tăng độ uy tín</h3>
+              <p>
+                Khi có backlink từ các trang web có domain authority cao,
+                website của bạn sẽ được Google tin tưởng hơn, từ đó cải thiện
+                thứ hạng tổng thể.
+              </p>
+            </div>
+            <div class="overview-card">
+              <div class="overview-icon">
+                <i class="fas fa-users"></i>
+              </div>
+              <h3>Tăng lưu lượng truy cập</h3>
+              <p>
+                Backlink không chỉ giúp SEO mà còn mang lại traffic trực tiếp từ
+                người dùng click vào link trên các trang web khác.
+              </p>
+            </div>
+            <div class="overview-card">
+              <div class="overview-icon">
+                <i class="fas fa-rocket"></i>
+              </div>
+              <h3>Tăng tốc độ index</h3>
+              <p>
+                Google sẽ crawl và index các trang web mới nhanh hơn khi có
+                backlink từ những trang web đã được index sẵn với domain
+                authority cao.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="service-packages" id="packages">
+          <h2 class="section-title">Các gói dịch vụ Backlink của BestLink</h2>
+          <div class="packages-grid">
+            <div class="package-card">
+              <div class="package-header">
+                <div class="package-name">Backlink Báo chí</div>
+                <div class="package-price">500K <span>/ link</span></div>
+                <p>Backlink từ báo điện tử uy tín</p>
+              </div>
+              <div class="package-body">
+                <ul class="package-features">
+                  <li><i class="fas fa-check"></i> Domain Authority 60+</li>
+                  <li><i class="fas fa-check"></i> Báo điện tử uy tín VN</li>
+                  <li><i class="fas fa-check"></i> Bài viết chất lượng cao</li>
+                  <li><i class="fas fa-check"></i> Link DoFollow</li>
+                  <li><i class="fas fa-check"></i> Index nhanh chóng</li>
+                  <li><i class="fas fa-check"></i> Báo cáo chi tiết</li>
+                </ul>
+                <button class="package-button">Đặt hàng ngay</button>
+              </div>
+            </div>
+
+            <div class="package-card">
+              <div class="popular-badge">Phổ biến nhất</div>
+              <div class="package-header">
+                <div class="package-name">Backlink Trust</div>
+                <div class="package-price">1M <span>/ link</span></div>
+                <p>Domain uy tín như Google, Amazon</p>
+              </div>
+              <div class="package-body">
+                <ul class="package-features">
+                  <li><i class="fas fa-check"></i> Domain Authority 80+</li>
+                  <li><i class="fas fa-check"></i> Trust Flow cực cao</li>
+                  <li><i class="fas fa-check"></i> Nguồn uy tín quốc tế</li>
+                  <li><i class="fas fa-check"></i> Hiệu quả lâu dài</li>
+                  <li><i class="fas fa-check"></i> An toàn 100%</li>
+                  <li><i class="fas fa-check"></i> Bảo hành 7 tháng</li>
+                </ul>
+                <button class="package-button">Đặt hàng ngay</button>
+              </div>
+            </div>
+
+            <div class="package-card">
+              <div class="package-header">
+                <div class="package-name">Guest Post</div>
+                <div class="package-price">800K <span>/ bài</span></div>
+                <p>Bài viết đăng khách chuyên nghiệp</p>
+              </div>
+              <div class="package-body">
+                <ul class="package-features">
+                  <li><i class="fas fa-check"></i> Website DA 50+</li>
+                  <li><i class="fas fa-check"></i> Nội dung độc quyền</li>
+                  <li><i class="fas fa-check"></i> 1000+ từ chất lượng</li>
+                  <li><i class="fas fa-check"></i> 2-3 link contextual</li>
+                  <li><i class="fas fa-check"></i> Tối ưu SEO on-page</li>
+                  <li><i class="fas fa-check"></i> Permanent link</li>
+                </ul>
+                <button class="package-button">Đặt hàng ngay</button>
+              </div>
+            </div>
+
+            <div class="package-card">
+              <div class="package-header">
+                <div class="package-name">Backlink PBN</div>
+                <div class="package-price">300K <span>/ link</span></div>
+                <p>Mạng lưới website riêng tư</p>
+              </div>
+              <div class="package-body">
+                <ul class="package-features">
+                  <li><i class="fas fa-check"></i> Domain Authority 40+</li>
+                  <li><i class="fas fa-check"></i> Aged domain</li>
+                  <li><i class="fas fa-check"></i> Diversified IP</li>
+                  <li><i class="fas fa-check"></i> Manual posting</li>
+                  <li><i class="fas fa-check"></i> Unique content</li>
+                  <li><i class="fas fa-check"></i> Fast delivery</li>
+                </ul>
+                <button class="package-button">Đặt hàng ngay</button>
+              </div>
+            </div>
+
+            <div class="package-card">
+              <div class="package-header">
+                <div class="package-name">Backlink GOV</div>
+                <div class="package-price">2M <span>/ link</span></div>
+                <p>Domain chính phủ .gov</p>
+              </div>
+              <div class="package-body">
+                <ul class="package-features">
+                  <li><i class="fas fa-check"></i> Domain .gov/.edu</li>
+                  <li><i class="fas fa-check"></i> Authority cực cao</li>
+                  <li><i class="fas fa-check"></i> Uy tín tuyệt đối</li>
+                  <li><i class="fas fa-check"></i> Hiệu quả mạnh mẽ</li>
+                  <li><i class="fas fa-check"></i> Số lượng giới hạn</li>
+                  <li><i class="fas fa-check"></i>Bảo hành 6 tháng</li>
+                </ul>
+                <button class="package-button">Đặt hàng ngay</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
